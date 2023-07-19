@@ -1,0 +1,93 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hname {
+    text-align: center; font-size: 50px;
+    display: inline-block;
+}
+
+.hname:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+li>a {
+    text-decoration: none; color: blue;
+    font-size: 24px;
+}
+
+li>a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.logo-text {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+#link {
+    font-size: small;
+    text-decoration: none;
+}
+#link:hover{
+    text-decoration: underline;
+}
+
+.list{
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 3px 8px;
+    margin: 0 24px;
+}
+
+.nav-bar {
+    /* border: 1px solid #000; */
+    width: 450px;
+    margin: 0 auto;
+}
+
+.bio-text {
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 3px 0;
+}
+img {border-radius: 50%;
+    border: 1px solid;
+    box-shadow: 4px 2px 2px gray;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: blue;
+}
+h2:hover{
+    text-decoration: underline;
+}
+
+.sub-list {
+    margin-left: 25px;
+}
+h3 {
+    margin-top: 10px;
+    color: blue;
+    margin-left: 25px;
+}
+h3:hover{
+    text-decoration: underline;
+}
+
+.subsub-list {
+    margin-left: 25px;
+}
