@@ -1,0 +1,360 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo-box{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000;
+}
+.links:hover{
+    color: #316499;
+    font-weight: 300;
+}
+
+.contact-link {
+    border: 1px solid navy;
+    padding: 5px 10px;
+    background-color: #316499;
+    color: #fff;
+    /* font-weight: 600; */
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    background-color: #fff;
+    color: #316499;
+}
+
+.hero-section{
+    display: flex;
+    /* border: 1px solid; */
+    height: calc(100vh - 85px);
+    background-color: rgba(199, 235, 238, 0.432);
+    padding: 50px;
+}
+
+.left {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 570px;
+}
+
+.hero-big-text{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero-small-text{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px 0;
+}
+.right {
+    /* border: 1px solid pink; */
+    background-image: url("./images/hero.png");
+    background-size: contain;
+    width: calc(1440px - 600px);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.hero-service {
+    /* border: 1px solid black; */
+    margin: 0 100px;
+}
+
+.vectors {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #316499;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 65px;
+}
+
+.vector-box {
+    width: 350px;
+    height: 320px;
+    box-shadow: 0 0 5px gray;
+    /* border: 1px solid black; */
+    margin: 78px 25px 150px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+}
+.vector-box:hover {
+    border: 1px solid #316499;
+}
+.vector-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #316499;
+    margin: 20px 0;
+    padding: 20px;
+}
+.vector-big-text {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.vector-small-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 18px;
+    color: #828282;
+}
+.housing-links {
+    font-size: 20px;
+    color: #316499;
+}
+
+
+.vectors-2-big-text {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #316499;
+    margin-bottom: 60px;
+}
+.vector-2-text {
+    font-size: 20px; font-weight: 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.vectors2{
+    display: flex;
+    justify-content: center;
+}
+.vector-2-img {
+    width: 300px;
+    height: 212px;
+}
+.vectors-2-box {
+    margin: 35px 30px;
+    padding: 15px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px gray;
+}
+.location-logo {
+    display: flex;
+    align-items: center;
+}
+.location-logo-img {
+    width: 25px;
+    margin-right: 10px;
+}
+.vector-2-info-img1 {
+    width: 60px;
+    height: auto;
+}
+.vector-2-info-img2 {
+    width: 60px;
+    height: auto;
+}
+.vector-2-info-img3 {
+    width: 120px;
+    height: auto;
+}
+.vector-2-links {
+    font-size: 20px;
+    color: #316499;
+}
+.vectors-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vectors-2-button{
+    width: 180px;
+    border: 1px solid #316499;
+    border-radius:40px ;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #316499;
+}
+.hero-new-services {
+    margin-bottom: 100px;
+}
+.blog-text {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #316499;
+    margin-bottom: 60px;
+}
+.vectors3 {
+    display: flex;
+    justify-content: center;
+}
+/* .hero-blog {
+    /* border: 1px solid #000; */
+
+
+.blog-text1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog-text2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #828282;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.blog-text3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #828282;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+.hero-blog-link {
+    font-size: 20px;
+    color: #316499;
+    padding-top: 200px;
+}    
+.blog-box-items {
+    border: 1px solid #000;
+    width: 500px;
+    box-shadow: 0 0 5px gray;
+    margin-right: 40px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.blog-box-left {
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.blog-box {
+    padding: 30px;
+}
+.blog-img {
+    width: 500px;
+    height: 250px;
+}
+.client-text {
+    font-size: 40px;
+    color: #316499;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 200px;
+}
+.vectors4 {
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.clients-box {
+    border: 1px solid black;
+    padding: 20px 30px;
+    margin: 0 20px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    background-color:  #3163991e;;
+}
+.clients-name {
+    /* border: 1px solid; */
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+}
+.occupation {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0 0 0;
+    color: #828282;
+}
+.clients-lorem {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #828282;
+}
+.footer-container {
+    background-color: #316499;
+    height: 400px;
+    padding: 50px 18px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.footer-main-text {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 60px;
+}
+.jabs {
+    display: flex;
+    align-items: center;
+}
+.head {
+    font-weight: 600;
+}
+.footer-main-text-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 1px solid #000; */
+}
+ul>li {
+    list-style: none;
+    margin: 18px 0;
+}
+.contact-icons {
+    width: 20px; 
+    margin-right: 10px;
+}
+.footer-main-text-links:hover {
+    text-decoration: underline;
+}
